@@ -1,0 +1,37 @@
+$purple: #61578B;
+$gold: #AE936C;
+$teal: #007476;
+$white: #fefefe;
+$background-gray: #F2F2F2;
+$border-gray: #CCCCCC;
+$footer-background: #1D1D1D;
+$footer-background-bottom: #222222;
+$text-color: #4A4A4A;
+
+.bg-purple {
+	background-color: $purple;
+}
+.bg-gold {
+	background-color: $gold;
+}
+.bg-teal {
+	background-color: $teal;
+}
+.bg-white {
+	background-color: $white;
+}
+.bg-light-gray {
+	background-color: $background-gray;
+}
+.bg-medium-gray {
+	background-color: $border-gray;
+}
+.bg-dark-gray {
+	background-color: $text-color;
+}
+.bg-black {
+	background-color: $footer-background;
+}
+.bg-black-alt {
+	background-color: $footer-background-bottom;
+}
