@@ -41,8 +41,7 @@ You will need access to the repository to run compilation of the sass files. Ple
 
 ### Contributing
 
-When contributing to any repository in Taylor's Github organization, please first discuss the change you wish to make via pull request,
-email, or any other method with the owners of this repository. The selected manager would merge changes upon acceptance of the changes.
+When contributing to any repository in Taylor's Github organization, please first discuss the change you wish to make via pull request, email, or any other method with the owners of this repository. The selected manager would merge changes upon acceptance of the changes. This documentation uses [Jekyll](https://jekyllrb.com/docs/) and [Liquid](https://shopify.github.io/liquid/). If you are not familiar with these, please visit use their documentation to help with contributing to this site.
 
 #### How to Contribute
 
