@@ -7,7 +7,7 @@ theme: just-the-docs
 
 defaults:
   - scope:
-      path: ""
+      path: "/REPO_NAME/"
     values:
       layout: "default"
 

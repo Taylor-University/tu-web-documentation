@@ -23,16 +23,16 @@ We are using gulp to compile are SASS file into CSS. dotCMS current does have a 
 ### Gulp Installation
 
 The follow commands are used to install the tools used in this project. You must be in the root directory when installing these tools. Run the follow command to install all tools and dependancies:
-```
+```bash
 $ npm install
 ```
 
 If you and a tool to the project, please don't forget to add it to the package.json file. Run the follow command when installing new tools or dependencies:
-```
+```bash
 $ npm install --save { package }
 ```
 OR
-```
+```bash
 $ npm install --save-dev { package }
 ```
 
