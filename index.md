@@ -3,7 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 description: "Taylor Univeristy Documentation Website for Staff & Student Developers"
-permalink: /
+permalink:
 ---
 
 # Taylor University Web Documentation
@@ -38,10 +38,6 @@ You will need access to the repository to run compilation of the sass files. Ple
 **Please Note**: *All code is worked on outside of dotCMS will need to be uploaded to dotCMS since there is not a good way for dotCMS and Github to integrate at this time.*
 
 ----
-
-### License
-
-Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
 
 ### Contributing
 
