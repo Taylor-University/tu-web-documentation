@@ -15,7 +15,8 @@
   <link rel="stylesheet" href="{{ '/assets/css/just-the-docs.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-  <!-- {% if site.ga_tracking != nil %}
+  {% comment %}
+  {% if site.ga_tracking != nil %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -25,7 +26,8 @@
       gtag('config', "{{ site.ga_tracking }}");
     </script>
 
-  {% endif %} -->
+  {% endif %}
+  {% endcomment %}
 
   {% if site.search_enabled != false %}
     <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
@@ -34,6 +36,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- {% seo %} -->
+  {% comment %}
+  {% seo %}
+  {% endcomment %}
 
 </head>
