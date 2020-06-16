@@ -3,7 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 description: "Taylor Univeristy Documentation Website for Staff & Student Developers"
-permalink:
+permalink: /
 ---
 
 # Taylor University Web Documentation
@@ -43,6 +43,21 @@ You will need access to the repository to run compilation of the sass files. Ple
 
 When contributing to any repository in Taylor's Github organization, please first discuss the change you wish to make via pull request,
 email, or any other method with the owners of this repository. The selected manager would merge changes upon acceptance of the changes.
+
+#### How to Contribute
+
+1. Install Jekyll and bundler gems
+	```
+	$ gem install jekyll bundler
+	```
+2. Clone the repository to your computer
+3. Navigate to the repositories folder
+4. Build the site and run local server
+	```
+	bundle exec jekyll serve
+	```
+
+If you have trouble getting the serve to run, you may be missing some dependencies. Please see [Github's Jekyll site](https://jekyllrb.com/docs/) for more instructions.
 
 #### Thank you to the contributors of Just the Docs!
 
