@@ -14,134 +14,22 @@ nav_order: 2
 1. TOC
 {:toc}
 
----
+----
 
-## Font size
+## Headers Font Styles
 
-Use the `.fs-1` - `.fs-10` to set an explicit font-size.
+| Tag/Class | Font Style | Font Weight | Color 	| Small | Medium(& Up) |
+|:----------|:-----------|:------------|:-------|:------|:-------------|
+| `h1, .h1`	| Noto Serif 	 | Normal | <span class="d-inline-block p-2 mr-1 v-align-middle bg-purple"></span> 	  | 24px | 48px |
+| `h2, .h2`	| Helvetica Neue | Bold   | <span class="d-inline-block p-2 mr-1 v-align-middle bg-dark-gray"></span> | 20px | 40px |
+| `h3, .h3`	| Helvetica Neue | Bold   | <span class="d-inline-block p-2 mr-1 v-align-middle bg-teal"></span> 	  | 19px | 31px |
+| `h4, .h4`	| Noto Serif 	 | Bold   | <span class="d-inline-block p-2 mr-1 v-align-middle bg-dark-gray"></span> | 18px | 25px |
+| `h5, .h5`	| Helvetica Neue | Bold   | <span class="d-inline-block p-2 mr-1 v-align-middle bg-purple"></span>    | 17px | 20px |
+| `h6, .h6`	| Helvetica Neue | Normal | <span class="d-inline-block p-2 mr-1 v-align-middle bg-dark-gray"></span> | 16px | 16px |
 
-| Class   | Small screen size `font-size`  | Large screen size `font-size` |
-|:--------|:-------------------------------|:------------------------------|
-| `.fs-1` | 9px                            | 10px                          |
-| `.fs-2` | 11px                           | 12px                          |
-| `.fs-3` | 12px                           | 14px                          |
-| `.fs-4` | 14px                           | 16px                          |
-| `.fs-5` | 16px                           | 18px                          |
-| `.fs-6` | 18px                           | 24px                          |
-| `.fs-7` | 24px                           | 32px                          |
-| `.fs-8` | 32px                           | 38px                          |
-| `.fs-9` | 38px                           | 42px                          |
-| `.fs-10`| 42px                           | 48px                          |
+## Body Font Styles
 
-<div class="code-example" markdown="1">
-Font size 1
-{: .fs-1 }
-Font size 2
-{: .fs-2 }
-Font size 3
-{: .fs-3 }
-Font size 4
-{: .fs-4 }
-Font size 5
-{: .fs-5 }
-Font size 6
-{: .fs-6 }
-Font size 7
-{: .fs-7 }
-Font size 8
-{: .fs-8 }
-Font size 9
-{: .fs-9 }
-Font size 10
-{: .fs-10 }
-</div>
-```markdown
-In Markdown, use the `{: }` wrapper to apply custom classes:
-
-Font size 1
-{: .fs-1 }
-Font size 2
-{: .fs-2 }
-Font size 3
-{: .fs-3 }
-Font size 4
-{: .fs-4 }
-Font size 5
-{: .fs-5 }
-Font size 6
-{: .fs-6 }
-Font size 7
-{: .fs-7 }
-Font size 8
-{: .fs-8 }
-Font size 9
-{: .fs-9 }
-Font size 10
-{: .fs-10 }
-```
-
-## Font weight
-
-Use the `.fw-300` - `.fw-700` to set an explicit font-size.
-
-<div class="code-example" markdown="1">
-Font weight 300
-{: .fw-300 }
-Font weight 400
-{: .fw-400 }
-Font weight 500
-{: .fw-500 }
-Font weight 700
-{: .fw-700 }
-</div>
-```markdown
-In Markdown, use the `{: }` wrapper to apply custom classes:
-
-Font weight 300
-{: .fw-300 }
-Font weight 400
-{: .fw-400 }
-Font weight 500
-{: .fw-500 }
-Font weight 700
-{: .fw-700 }
-```
-
-## Line height
-
-Use the `lh-` classes to explicitly apply line height to text.
-
-| Class         | `line-height` value  | Notes                         |
-|:--------------|:---------------------|:------------------------------|
-| `.lh-0`       | 0                    |                               |
-| `.lh-tight`   | 1.1                  | Default for headings          |
-| `.lh-default` | 1.4                  | Default for body (paragraphs) |
-
-<div class="code-example" markdown="1">
-No Line height
-No Line height
-{: .lh-0 }
-
-Tight line height
-Tight line height
-{: .lh-tight }
-
-Default line height
-Default line height
-{: .fh-default }
-</div>
-```markdown
-In Markdown, use the `{: }` wrapper to apply custom classes:
-
-No Line height
-No Line height
-{: .lh-0 }
-
-Tight line height
-Tight line height
-{: .lh-tight }
-
-Default line height
-Default line height
-{: .fh-default }
-```
+| Use  | Font Style | Font Weight | Color | Font Size |
+|:-----|:-----------|:------------|:------|:----------|
+| Body | Noto Serif | Normal	  | <span class="d-inline-block p-2 mr-1 v-align-middle bg-dark-gray"></span> | 16px |
+| Link | Noto Serif | Normal	  | <span class="d-inline-block p-2 mr-1 v-align-middle bg-gold"></span> 	  | 16px |
