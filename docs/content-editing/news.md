@@ -14,9 +14,9 @@ nav_order: 1
 1. TOC
 {:toc}
 
-----
-
 **Content Type** - Taylor Moderization: News Item
+
+----
 
 ### Add a news item
 
@@ -27,6 +27,8 @@ nav_order: 1
 5. **Fill out** all necessary fields.
 6. To save, **click** "Save" in the right column. If you have publish access, you will see an option for "Save / Publish".
 
+----
+
 ### Update a news item
 
 1. In the left menu in dotCMS, **select** the content tab.
@@ -36,6 +38,8 @@ nav_order: 1
 5. **Update** all necessary fields.
 6. To save, **click** "Save" in the right column. If you have publish access, you will see an option for "Save / Publish".
 
+----
+
 ### Unpublishing a news item
 
 1. In the left menu in dotCMS, **select** the content tab.
@@ -43,6 +47,8 @@ nav_order: 1
 3. **Search** for the news item you want to unpublish.
 4. When you find it, **right click** on the item.
 5. **Select** "Unpublish" from the pop up menu.
+
+----
 
 ### Remove a news item
 
