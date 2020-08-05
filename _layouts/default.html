@@ -16,8 +16,22 @@ layout: table_wrappers
       </div>
 
       <div class="navigation main-nav js-main-nav">
+        <!-- <a class="js-toggle-dark-mode btn btn-purple">View in Dark Side</a>
+        <script> 
+          const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); 
+          jtd.addEvent(toggleDarkMode, 'click', function(){ 
+            if (jtd.getTheme() === 'dark') { 
+              jtd.setTheme('light'); 
+              toggleDarkMode.textContent = 'View in Dark Side'; 
+            } else { 
+              jtd.setTheme('dark'); 
+              toggleDarkMode.textContent = 'Return to the Light Side'; 
+            } 
+          }); 
+        </script> -->
         {% include nav.html %}
       </div>
+
       <footer class="site-footer">
         <p class="text-small text-grey-dk-000 mb-4">This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.</p>
       </footer>
