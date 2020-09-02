@@ -14,7 +14,7 @@ defaults:
       layout: "default"
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "https://www.taylor.edu/img/tu-logo.png"
+logo: "https://www.taylor.edu/img/tu-logo-purple.svg"
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -43,9 +43,6 @@ search:
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
   button: false
-
-# Enable support for hyphenated search words:
-search_tokenizer_separator: /[\s/]+/
 
 # Aux links for the upper right navigation
 aux_links:
