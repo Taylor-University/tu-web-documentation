@@ -5,6 +5,8 @@ url: "https://taylor-university.github.io" # the base hostname & protocol for yo
 
 exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "README.md"]
 
+# remote_theme: pmarsceill/just-the-docs
+
 theme: just-the-docs
 
 defaults:
