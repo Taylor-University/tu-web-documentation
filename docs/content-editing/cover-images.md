@@ -16,6 +16,14 @@ nav_order: 3
 
 **Content Type** - Taylor Modernization: Cover Images
 
+When uploading images, please remember to **NOT** upload if the follow apply:
+- Image has not been optimized. Image should not be more than 1MB on the website. To keep page load speed high, please try to get the file size of the image as small as possible.
+- Image file name has spaces. Example: *file name.jpg*.
+- Image file name has special characters such as [ ], { } $. Example: *file[name].jpg*. Dashes or underscores are recommended.
+- Image files without an extension or an extension other than JPG and PNG. Example: *file-name* or *file-name.gif*
+
+The recommended file naming convention is all lowercase separated by dashes or underscores with a JPG or PNG file extension. Examples: *file-name.jpg* or *file_name.png*
+
 ----
 
 ### Create a Cover Image
