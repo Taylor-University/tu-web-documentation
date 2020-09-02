@@ -2,7 +2,7 @@
 layout: default
 title: Cover Images
 parent: Content Editing
-nav_order: 2
+nav_order: 3
 ---
 
 # Web Content Update
