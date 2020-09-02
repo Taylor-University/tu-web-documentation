@@ -9,11 +9,11 @@ exclude: ["*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "README.md"]
 
 theme: just-the-docs
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       layout: "default"
 
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "https://www.taylor.edu/img/tu-logo-purple.svg"
