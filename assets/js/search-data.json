@@ -1,0 +1,308 @@
+{"0": {
+    "doc": "BrightEdge",
+    "title": "BrightEdge",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/brightedge/",
+    "relUrl": "/docs/brightedge/"
+  },"1": {
+    "doc": "BrightEdge",
+    "title": "Table of contents",
+    "content": ". | Brightedge SEO Definitions | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/brightedge/#table-of-contents",
+    "relUrl": "/docs/brightedge/#table-of-contents"
+  },"2": {
+    "doc": "BrightEdge",
+    "title": "Brightedge SEO Definitions",
+    "content": "Here is a brief summary of terms to help departments understand the Brightedge labels: . | Keyword: a word or phrase commonly used in browser searches to help find what a searcher is looking for | Search Volume: number of unique searches per month (+ this search analyzes XX compared to XX search data) | Competition: the computer-assessed accessibility of our webpages to rank for that keyword, based on the competition of the word with other webpages – low is easiest to rank for, high is most difficult | Keyword Value: the computer-assessed value of a keyword on a 1-100 scale – 100 is most valuable, 1 is least valuable (+ some search volume may just be low or high for the month assessed; this is an “average value” number) | DO NOT APPLY section: a human-sorted listing of keywords that do not directly apply to our major page, but may provide insight to the similar kinds of words searched by Google searchers | * Page: the external page that for which a competitor ranks | * Page Number: the Google page number for a competitor’s page, based on an individual keyword’s blended rank | * Blended Rank: the rank spot in Google where a competitor’s page, sits based on a specific keyword (+ there are approximately 10-12 rank spots on each Google page, – e.g. rank 50 would be ~page 5) . | On competitive analysis pages only | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/brightedge/#brightedge-seo-definitions",
+    "relUrl": "/docs/brightedge/#brightedge-seo-definitions"
+  },"3": {
+    "doc": "Code Snippets",
+    "title": "Code Snippets",
+    "content": "This snippets are to help keep the design of the website consistant. ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/code-snippets/",
+    "relUrl": "/docs/code-snippets/"
+  },"4": {
+    "doc": "Code Snippets",
+    "title": "Table of contents",
+    "content": ". | Accordions | Block Box Menu | Boxes | Content Tag with Border | Image Carousel | Table | Video Grid | . PS: Content insertion areas are display with [ ] around a description of what content should be placed here. Accordions . &lt;ul class=\"accordion\" data-accordion data-multi-expand=\"true\" data-allow-all-closed=\"true\"&gt; &lt;!-- Item [Number] --&gt; &lt;li class=\"accordion-item\" data-accordion-item&gt; &lt;a href=\"#\" class=\"accordion-title\"&gt;[Accordion Item Title]&lt;/a&gt; &lt;div class=\"accordion-content\" data-tab-content&gt; [Content] &lt;/div&gt; &lt;/li&gt; ... &lt;/ul&gt; . Block Box Menu . &lt;section class=\"block-box\"&gt; &lt;div class=\"content-tag grid-x text-center\"&gt; &lt;div class=\"cell small-offset-1 small-10 large-4 large-offset-0\"&gt; &lt;div class=\"tag-box text-uppercase\" tabindex=\"0\" aria-level=\"2\"&gt;[Menu Grid Title]&lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=\"content grid-x grid-margin-y medium-up-2 text-uppercase\"&gt; &lt;div class=\"cell\"&gt; &lt;a class=\"title-links\" href=\"[Link]\"&gt;[Menu Item Text]&lt;/a&gt; &lt;/div&gt; ... &lt;/div&gt; &lt;/section&gt; . Boxes . &lt;div id=\"[Name of Box Section]\" class=\"grid-x grid-margin-x small-up-2 large-up-4\" data-equalizer data-equalize-by-row=\"true\"&gt; &lt;div class=\"cell\"&gt; &lt;a href=\"[Link]\" class=\"box-link\"&gt; &lt;div class=\"callout box text-center\" data-equalizer-watch&gt; &lt;div class=\"icon\"&gt;&lt;i class=\"fas [FontAwesome Icon]\"&gt;&lt;/i&gt;&lt;/div&gt; &lt;p&gt; &lt;strong&gt;[Title]&lt;/strong&gt;&lt;br /&gt; &lt;small&gt;[Short Description or Blurb]&lt;/small&gt; &lt;/p&gt; &lt;/div&gt; &lt;/a&gt; &lt;/div&gt; ... &lt;/div&gt; . Content Tag with Border . &lt;div class=\"content-tag grid-x text-center\"&gt; &lt;div class=\"cell small-offset-1 small-10 large-4 large-offset-0\"&gt; &lt;div class=\"tag-box text-uppercase\" tabindex=\"0\" aria-level=\"2\"&gt;Featured&lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=\"content-tag-border\"&gt;&lt;/div&gt; . Image Carousel . &lt;div class=\"orbit content-carousel\" role=\"region\" aria-label=\"[Name of Image Carousel] Pictures\" data-orbit data-swipe&gt; &lt;div class=\"orbit-wrapper\"&gt; &lt;div class=\"orbit-controls\"&gt; &lt;button class=\"orbit-previous\"&gt;&lt;span class=\"show-for-sr\"&gt;Previous Slide&lt;/span&gt;&lt;i class=\"far fa-chevron-left\"&gt;&lt;/i&gt;&lt;/button&gt; &lt;button class=\"orbit-next\"&gt;&lt;span class=\"show-for-sr\"&gt;Next Slide&lt;/span&gt;&lt;i class=\"far fa-chevron-right\"&gt;&lt;/i&gt;&lt;/button&gt; &lt;/div&gt; &lt;ul class=\"orbit-container\"&gt; &lt;li class=\"is-active orbit-slide\"&gt; &lt;figure class=\"orbit-figure\"&gt; &lt;img class=\"orbit-image\" src=\"[Link]\" alt=\"[Alt Text]\"&gt; &lt;figcaption class=\"orbit-caption\"&gt;[Caption]&lt;/figcaption&gt; &lt;/figure&gt; &lt;/li&gt; &lt;li class=\"orbit-slide\"&gt; &lt;figure class=\"orbit-figure\"&gt; &lt;img class=\"orbit-image\" src=\"[Link]\" alt=\"[Alt Text]\"&gt; &lt;figcaption class=\"orbit-caption\"&gt;[Caption]&lt;/figcaption&gt; &lt;/figure&gt; &lt;/li&gt; &lt;li class=\"orbit-slide\"&gt; &lt;figure class=\"orbit-figure\"&gt; &lt;img class=\"orbit-image\" src=\"[Link]\" alt=\"[Alt Text]\"&gt; &lt;figcaption class=\"orbit-caption\"&gt;[Caption]&lt;/figcaption&gt; &lt;/figure&gt; &lt;/li&gt; ... &lt;/ul&gt; &lt;/div&gt; &lt;nav class=\"orbit-bullets\"&gt; &lt;button class=\"is-active\" data-slide=\"[0]\"&gt;&lt;span class=\"show-for-sr\"&gt;[First] slide details.&lt;/span&gt;&lt;span class=\"show-for-sr\"&gt;Current Slide&lt;/span&gt;&lt;/button&gt; &lt;button data-slide=\"[1]\"&gt;&lt;span class=\"show-for-sr\"&gt;[Second] slide details.&lt;/span&gt;&lt;/button&gt; &lt;button data-slide=\"[2]\"&gt;&lt;span class=\"show-for-sr\"&gt;[Third] slide details.&lt;/span&gt;&lt;/button&gt; ... &lt;/nav&gt; &lt;/div&gt; . Table . &lt;table class=\"hover\"&gt; &lt;thead class=\"teal small-text-center large-text-left\"&gt; &lt;tr&gt; &lt;th colspan=\"2\"&gt;[Table Title]&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td width=\"[Number/Percentage]\"&gt;[Data]&lt;/td&gt; &lt;td width=\"[Number/Percentage]\"&gt;[Data]&lt;/td&gt; &lt;/tr&gt; ... &lt;/tbody&gt; &lt;/table&gt; . Video Grid . &lt;section id=\"[Name of Video Grid]\" class=\"top-border\"&gt; &lt;div class=\"content-tag grid-x\"&gt; &lt;div class=\"cell small-10 large-4 text-center\"&gt; &lt;div class=\"tag-box text-uppercase\" tabindex=\"0\" aria-level=\"2\"&gt;[Video Grid Title]&lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=\"grid-x grid-padding-x large-up-2\"&gt; &lt;div class=\"cell\"&gt; &lt;div class=\"responsive-embed widescreen\"&gt; &lt;iframe src=\"[Youtube Embed Link]\" frameborder=\"0\" allow=\"encrypted-media\" allowfullscreen&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt; ... &lt;/div&gt; &lt;/section&gt; . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/code-snippets/#table-of-contents",
+    "relUrl": "/docs/code-snippets/#table-of-contents"
+  },"5": {
+    "doc": "Colors",
+    "title": "Colors",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/web-style-guide/color/",
+    "relUrl": "/docs/web-style-guide/color/"
+  },"6": {
+    "doc": "Colors",
+    "title": "Table of contents",
+    "content": ". | Main Colors | Grey Scale | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/web-style-guide/color/#table-of-contents",
+    "relUrl": "/docs/web-style-guide/color/#table-of-contents"
+  },"7": {
+    "doc": "Colors",
+    "title": "Main Colors",
+    "content": "| Color | Hex | RGB | SASS Variable | . | | #61578B | 97, 87, 139 | $purple | . | | #AE936C | 174, 147, 108 | $gold | . | | #007476 | 0, 116, 118 | $teal | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/web-style-guide/color/#main-colors",
+    "relUrl": "/docs/web-style-guide/color/#main-colors"
+  },"8": {
+    "doc": "Colors",
+    "title": "Grey Scale",
+    "content": "| Color | Hex | RGB | SASS Variable | . | | #FEFEFE | 254, 254, 254 | $white | . | | #F2F2F2 | 242, 242, 242 | $background-gray | . | | #CCCCCC | 40, 42, 43 | $border-gray | . | | #4A4A4A | 74, 74, 74 | $text-color | . | | #1D1D1D | 29, 29, 29 | $footer-background | . | | #222222 | 34, 34, 34 | $footer-background-bottom | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/web-style-guide/color/#grey-scale",
+    "relUrl": "/docs/web-style-guide/color/#grey-scale"
+  },"9": {
+    "doc": "Content",
+    "title": "Content",
+    "content": "This section will explain various was to edit content in dotCMS. Content includes familiar web objects such as Pages and Files, but can also include specific types of abstract content such as News Item, Employee, and Promotion. We have defined many content types within our instance of dotCMS, but we can create others if the need arises. The tutorials here will help your understand how to edit various types of content based on how our content is structured. ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content",
+    "relUrl": "/docs/content"
+  },"10": {
+    "doc": "Cover Images",
+    "title": "Web Content Update",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/cover-images/#web-content-update",
+    "relUrl": "/docs/content/cover-images/#web-content-update"
+  },"11": {
+    "doc": "Cover Images",
+    "title": "Table of contents",
+    "content": ". | Create a Cover Image | Update a Cover Image . | On Page Editing | Content Search Editing | . | . Content Type - Taylor Modernization: Cover Images . When uploading images, please remember to NOT upload if the follow apply: . | Image has not been optimized. Image should not be more than 1MB on the website. To keep page load speed high, please try to get the file size of the image as small as possible. | Image file name has spaces. Example: file name.jpg. | Image file name has special characters such as [ ], { } $. Example: file[name].jpg. Dashes or underscores are recommended. | Image files without an extension or an extension other than JPG and PNG. Example: file-name or file-name.gif | . The recommended file naming convention is all lowercase separated by dashes or underscores with a JPG or PNG file extension. Examples: file-name.jpg or file_name.png . Create a Cover Image . Update a Cover Image . There are two ways to edit cover images in dotCMS, on page editing and content search editing. Below will describe how to edit content in both methods. On Page Editing . Content Search Editing . | In the left menu in dotCMS, select the content tab. | Using the type field in the left column, filter by “Page Asset (all the way at the bottom of the list)” | Search for the page, and choose the correct title on the right. | In the pop-up On the right, Click the “Preview” option. | On top left navagation on the website editor(right below the page title), Click Edit. | Hover over the content you wish to edit | On the top right of the cover image you wish to edit, Click the pen icon | On the right side menu Click “Lock for Editing” (This locks the web page to prevent others from trying to edit the page at the same time you are) | On the image section, Click “Edit Image” | After updating the content, on the right side menu, Click save. If you have publish access, you will see an option for “Save / Publish”. | On the top menu on the website editor click the lock icon toggle to unlock the the page. | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/cover-images/#table-of-contents",
+    "relUrl": "/docs/content/cover-images/#table-of-contents"
+  },"12": {
+    "doc": "Cover Images",
+    "title": "Cover Images",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/cover-images/",
+    "relUrl": "/docs/content/cover-images/"
+  },"13": {
+    "doc": "Employee",
+    "title": "Employee Content",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/employee/#employee-content",
+    "relUrl": "/docs/content/employee/#employee-content"
+  },"14": {
+    "doc": "Employee",
+    "title": "Table of contents",
+    "content": ". | Overall Notes | Faculty Pages . | Education Format | Optional Information | . | Staff Pages* . | Admissions Counselor Pages | . | . Content Type - Taylor Modernization: Employee . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/employee/#table-of-contents",
+    "relUrl": "/docs/content/employee/#table-of-contents"
+  },"15": {
+    "doc": "Employee",
+    "title": "Overall Notes",
+    "content": ". | Headshot: . | Headshot (taken by Creative Director) should be 300x300 with a 72-96 resolution. | If no professional headshot is available, please use the black-and-white default Cross and Bucket image (in the faculty-staff folder on Public). | . | Phone Number Style: Always use dashes, NOT parentheses. e.g. 123-456-7890 ; NOT (123) 456-7890 | Email Style: Always use @taylor.edu, NOT @tayloru.edu. e.g. jndoe@taylor.edu ; NOT jndoe@tayloru.edu | Department/Office Relationships: Link to department(s)/office(s) associated with employee. | Cover Image: Always use the default Employees cover image. | Job Title . | Use official job title. | Capitalize every word like it is a Movie title. | Use “&amp;” instead of “and” if the title includes an “and.” | Use “and” between two titles if employee has more than one title. | Use full words, NOT abbreviations e.g. Director of Student Development &amp; Residence Life and Assistant Professor of Higher Education | . | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/employee/#overall-notes",
+    "relUrl": "/docs/content/employee/#overall-notes"
+  },"16": {
+    "doc": "Employee",
+    "title": "Faculty Pages",
+    "content": "Faculty are required to list Contact information and have a professional headshot (via Creative Director). Faculty are encouraged to include Education and a biography. In the biography, we ask them to include answers to the following: Hobby, Advice to Incoming Freshmen, Why I Came to Taylor / Why I Enjoy Teaching at Taylor, and Major Accomplishments. Education Format . In list format, each degree as: . | Abbreviated degree, NO periods (in &lt;strong&gt; tag or Bold when using the WYSIWYG) e.g. PhD | [Comma space] | Discipline or Major of the degree * , capitalized like a title, NOT abbreviated, e.g. British Literature | [Comma space] | College or University, NOT abbreviated e.g. Taylor University | [Open parentheses] 4-digit year [Closed parentheses] e.g. (1994) | . *If employee has a minor, focus, or concentration they want to list, list the primary discipline followed by a dash and then the concentration. e.g. Computer Science - Cybersecurity . All together, the Education section code should look like: . &lt;ul&gt; &lt;li&gt;&lt;strong&gt;PhD&lt;/strong&gt;, Electrical Engineering - Circuits, University of Maryland (2006)&lt;/li&gt; &lt;li&gt;&lt;strong&gt;MS&lt;/strong&gt;, Computer Engineering, Korea University (1993)&lt;/li&gt; &lt;li&gt;&lt;strong&gt;BS&lt;/strong&gt;, Computer Science - Digital Media, Taylor University (1991)&lt;/li&gt; &lt;/ul&gt; . Optional Information . | Photo Carousel: | Research &amp; Publications: Can include up to 4 books, 4 research projects, 6 published articles. | Books: Include cover image, link title to Publisher’s website - book page, list all authors noting Taylor University employees first, list publisher name and year of publication as [PUBLISHER, YEAR] | Research: Title of research capitalized like movie title, link title to research page, list all researchers, list short summary of research. | Articles: | . | Vitae (CV): Do NOT include personal phone number, home address, or references information. | SEO Data: Use the following format: [FIRST LAST] is a [JOB TITLE] with the [OFFICE/DEPARTMENT] at Taylor University. Contact [HIM/HER] or read [HIS/HER] faculty bio here. | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/employee/#faculty-pages",
+    "relUrl": "/docs/content/employee/#faculty-pages"
+  },"17": {
+    "doc": "Employee",
+    "title": "Staff Pages*",
+    "content": "Staff are only required to list the Contact information and have a professional headshot (via Creative Director). Exceptions for Education, Biography, Vitae, and Accomplishment information may be included in unique circumstances. | SEO Data: [FIRST LAST] is a [JOB TITLE] with the [OFFICE/DEPARTMENT] at Taylor University. Contact [HIM/HER] here. | . Admissions Counselor Pages . Admissions Counselors are required to list the contact information, have a professional headshot (via Creative Director), and include a narrative biography and “Responsibilities” section. | SEO Data: [FIRST LAST] is the Taylor University Admissions Counselor for [majors in [AREA (and/or) STUDENT GROUP]. Contact [HIM/HER] or read [HIS/HER] bio here. | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/employee/#staff-pages",
+    "relUrl": "/docs/content/employee/#staff-pages"
+  },"18": {
+    "doc": "Employee",
+    "title": "Employee",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/employee/",
+    "relUrl": "/docs/content/employee/"
+  },"19": {
+    "doc": "Forms",
+    "title": "Forms",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/forms/",
+    "relUrl": "/docs/forms/"
+  },"20": {
+    "doc": "Forms",
+    "title": "Table of contents",
+    "content": ". | Google Forms . | Cover Image &amp; Logo | . | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/forms/#table-of-contents",
+    "relUrl": "/docs/forms/#table-of-contents"
+  },"21": {
+    "doc": "Forms",
+    "title": "Google Forms",
+    "content": "We are using Google forms for any form that is not intended for lead generation. The forms are created and hosted on TU Marketing’s Google account. Form tracking is not necessary for Google forms at this time. Cover Image &amp; Logo . | Color: Please use the official purple color found in the Web Style Guide | Taylor Logo: Option to Attach the Taylor University banner logo in the top left. You need to create a 1200x300 cover image with the logo. Use this SVG logo. | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/forms/#google-forms",
+    "relUrl": "/docs/forms/#google-forms"
+  },"22": {
+    "doc": "Markdown kitchen sink",
+    "title": "Header 1",
+    "content": "This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/index-test/#header-1",
+    "relUrl": "/docs/index-test/#header-1"
+  },"23": {
+    "doc": "Markdown kitchen sink",
+    "title": "Header 2",
+    "content": "This is a blockquote following a header. When something is important enough, you do it even if the odds are not in your favor. Header 3 . // Javascript code with syntax highlighting. var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } . # Ruby code with syntax highlighting GitHubPages::Dependencies.gems.each do |gem, version| s.add_dependency(gem, \"= #{version}\") end . Header 4 . | This is an unordered list following a header. | This is an unordered list following a header. | This is an unordered list following a header. | . Header 5 . | This is an ordered list following a header. | This is an ordered list following a header. | This is an ordered list following a header. | . Header 6 . | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . There’s a horizontal rule below this. Here is an unordered list: . | Item foo | Item bar | Item baz | Item zip | . And an ordered list: . | Item one | Item two | Item three | Item four | . And a nested list: . | level 1 item . | level 2 item | level 2 item . | level 3 item | level 3 item | . | . | level 1 item . | level 2 item | level 2 item | level 2 item | . | level 1 item . | level 2 item | level 2 item | . | level 1 item | . Nesting an ol in ul in an ol . | level 1 item (ul) . | level 2 item (ol) | level 2 item (ol) . | level 3 item (ul) | level 3 item (ul) | . | . | level 1 item (ul) . | level 2 item (ol) | level 2 item (ol) . | level 3 item (ul) | level 3 item (ul) | . | level 4 item (ol) | level 4 item (ol) . | level 3 item (ul) | level 3 item (ul) | . | . | level 1 item (ul) | . And a task list . | Hello, this is a TODO item | Hello, this is another TODO item | Goodbye, this item is done | . Small image . Large image . Definition lists can be used with HTML syntax. Name Godzilla Born 1952 Birthplace Japan Color Green Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this. The final element. ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/index-test/#header-2",
+    "relUrl": "/docs/index-test/#header-2"
+  },"24": {
+    "doc": "Markdown kitchen sink",
+    "title": "Markdown kitchen sink",
+    "content": "Text can be bold, italic, or strikethrough. Link to another page. There should be whitespace between paragraphs. There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project. ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/index-test/",
+    "relUrl": "/docs/index-test/"
+  },"25": {
+    "doc": "Home",
+    "title": "Taylor University Web Documentation",
+    "content": "This documentation is a collaboration of all developers at Taylor University on how to contribute to the Taylor website within Taylor’s web environment. Please update or add any content that is out of date so that documentation stays relevant to the current Taylor web environment. Get started View it on GitHub . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/#taylor-university-web-documentation",
+    "relUrl": "/#taylor-university-web-documentation"
+  },"26": {
+    "doc": "Home",
+    "title": "Overview",
+    "content": "Platform/Content Management System . Taylor University using the content management system called dotCMS. The version of dotCMS that we are on is v5.2. If you need to see any documentation of the dotCMS platform, you can find it at https://dotcms.com/docs/latest/table-of-content. CSS/JS Frameworks . This site is using Zurb’s Foundation 6 and has been installed using NodeJS and Gulp. Please see Foundation 6 Documentation for more details on the framework. (P.S. Your machine will need have npm installed globally to use the npm commands in the following section.) Please see the setup page of how this framework is being used. Repository . You will need access to the repository to run compilation of the sass files. Please ask one of the staff developers for access to the repository. The repository contains the following: . | files that have been updated to the dotCMS | compilation script for sass | snippets for components used on the website | templates/layouts | containers | widgets | . Please Note: All code is worked on outside of dotCMS will need to be uploaded to dotCMS since there is not a good way for dotCMS and Github to integrate at this time. Contributing . When contributing to any repository in Taylor’s Github organization, please first discuss the change you wish to make via pull request, email, or any other method with the owners of this repository. The selected manager would merge changes upon acceptance of the changes. This documentation uses Jekyll and Liquid. If you are not familiar with these, please visit use their documentation to help with contributing to this site. How to Contribute . | Install Jekyll and bundler gems $ gem install jekyll bundler . | Clone the repository to your computer | Navigate to the repositories folder $ cd {path}/tu-web-documentation . | Build the site and run local server $ bundle exec jekyll serve . | . If you have trouble getting the serve to run, you may be missing some dependencies. Please see Github’s Jekyll site for more instructions. Thank you to the contributors of Just the Docs! . Code of Conduct . The Taylor University Web Team is committed to fostering a welcoming community. Our conduct aligns with the Taylor’s Life Together Convenant which can be found on Taylor’s Website. ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/#overview",
+    "relUrl": "/#overview"
+  },"27": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/",
+    "relUrl": "/"
+  },"28": {
+    "doc": "Majors & Minors",
+    "title": "Majors, Minors, &amp; Certificates",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/majors-minors/#majors-minors--certificates",
+    "relUrl": "/docs/content/majors-minors/#majors-minors--certificates"
+  },"29": {
+    "doc": "Majors & Minors",
+    "title": "Table of contents",
+    "content": ". | Fields to Use . | Description | . | Relationships | SEO Data | Other Info | . Content Types - Taylor Modernization: Degrees, Majors, and Minors . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/majors-minors/#table-of-contents",
+    "relUrl": "/docs/content/majors-minors/#table-of-contents"
+  },"30": {
+    "doc": "Majors & Minors",
+    "title": "Fields to Use",
+    "content": ". | Title - Name of the major / minor. DO NOT include “Major” or “Minor.” | Modernized - ALWAYS “Yes.” | Letter - First letter of the major name. (Helps order majors on “Major” page.) | Host - ALWAYS www.taylor.edu. | Type - Choose “Major” if only a major; choose “Undergraduate Minor” if only a minor; choose “Major/Minor” if both major and minor. | Department - Choose the appropriate department for the major/minor. | TBD what to do about majors without a department. | . | Affinity Group - Choose appropriate interest area for the major/minor. | . Description . This is the major or minor page content. The appropriate order is: . | [H1 Name of the Major / Minor] [H1 &lt;small&gt; Major, Minor, or Major/Minor] | Content for the original major/minor with &lt;h3&gt; subheads. If you don’t want Google to see it as a priority, you can use &lt;div class=\"h3\"&gt; to look like an h3 tag. | If major and similar or same-name minor, include paragraph on minor. | If any callout needed. | Curriculum &amp; Degree Options list. | Contact info for Department (and program if a separate director). | Button to “View Department Faculty &amp; Staff”. | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/majors-minors/#fields-to-use",
+    "relUrl": "/docs/content/majors-minors/#fields-to-use"
+  },"31": {
+    "doc": "Majors & Minors",
+    "title": "Relationships",
+    "content": ". | Special Programs - Can select up to 2. If a Bachelor of Science degree that includes Systems, select “Systems.” If Health Science or Natural Science major, choose “Pre-Med Curriculum” and/or “Health Professions Advising.” If Education, select “Special Education” and/or “Teaching English to Speakers of Other Languages - TESOL.” | AffinityGroup: DegreesMajorsAndMinors - Choose the appropriate interest area for the major/minor. | Office/Department - Choose the appropriate department for the major/minor. | Cover Image: Child - Identify correct Cover Image. ALL majors/minors must have unique cover images. | Degrees, Majors &amp; Minors: CHILD RelatedMajors - Choose up to 5 similar majors to relate to the current major/minor. | Degrees, Majors &amp; Minors: CHILD RelatedMinors - Choose up to 5 similar minors to relate to the current major/minor. | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/majors-minors/#relationships",
+    "relUrl": "/docs/content/majors-minors/#relationships"
+  },"32": {
+    "doc": "Majors & Minors",
+    "title": "SEO Data",
+    "content": ". | Friendly Name - Major/Minor Name with identifier (i.e. Major, Minor, or Major/Minor). | SEO Description - Must include major keywords for Google Search. Use Brightedge or similar SEO Keyword tool to identify rankable keywords. | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/majors-minors/#seo-data",
+    "relUrl": "/docs/content/majors-minors/#seo-data"
+  },"33": {
+    "doc": "Majors & Minors",
+    "title": "Other Info",
+    "content": "DO NOT use any other fields. ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/majors-minors/#other-info",
+    "relUrl": "/docs/content/majors-minors/#other-info"
+  },"34": {
+    "doc": "Majors & Minors",
+    "title": "Majors & Minors",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/majors-minors/",
+    "relUrl": "/docs/content/majors-minors/"
+  },"35": {
+    "doc": "News/Stories Content",
+    "title": "News/Stories Content",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/news/",
+    "relUrl": "/docs/content/news/"
+  },"36": {
+    "doc": "News/Stories Content",
+    "title": "Table of contents",
+    "content": ". | News Item Content . | Fields to Use . | News Type | Top News v. Featured on Homepage | . | SEO Data | Additional News Info | . | Create/Edit News Items . | Add a news item | Update a news item | Unpublishing a news item | Remove a news item | . | . Content Type - Taylor Moderization: News Item . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/news/#table-of-contents",
+    "relUrl": "/docs/content/news/#table-of-contents"
+  },"37": {
+    "doc": "News/Stories Content",
+    "title": "News Item Content",
+    "content": "Fields to Use . | Host - Always choose www.taylor.edu. | Headline - H1 name of the News article, also is the URL Title so try keep length short. | Author - Byline for articles, NOT for press releases. | Publish Date - Include the date and time the article is being published. This will affect the order the article is presented on the News page. | NEEDS FIXED, will only publish when “Save &amp; Publish” is clicked. Will backdate to designated date and time in news feed, but cannot schedule news article forward. | . | Does not expire? - Always checked. | Remove News articles that have been posted more than four years. e.g. Articles from 2015 should be removed at the end of 2019. **WITH SOME EXCEPTIONS. | . | Short Summary - Include for ALL News Items. This should include keywords, as it also should be the SEO Description. | Body - Full news article. | Image - This is the icon image on the “News” feed page, as well as the image that will be posted at the top of the article. The recommended dimensions are 800x533 pixels. | If there is no image, use the photo of the Taylor Entrance. (news-default.jpg attached) | . | Locations &gt; Department - Include if department-related news. This will assign the article to the appropriate Department News section. | Cover Image: Child - Optional. Must be different than the “Image.” Same size as a normal Cover Image. | . News Type . Choose ALL categories that apply to the news item. | News: Catch-all category for all news items. Also for uncategorized news. | Story: For BIG NEWS stories, brand stories, narrative news stories, departmental and alumni stories, etc. | Biblical Stewardship: For stories and stewardship “blog” articles from the Office of Biblical Stewardship. | Press Releases: For University press releases and department events, | . Top News v. Featured on Homepage . CHECK BOTH. They are synonymous, but you must check both to make them featured news on the Homepage. If they are not checked, the news item will not show up on the News page without clicking the “Read More” button. SEO Data . | Friendly Name - Should be the “Headline.” | SEO Description - Use the content from the “Short Summary” section. | . Additional News Info . DO NOT use any other fields. ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/news/#news-item-content",
+    "relUrl": "/docs/content/news/#news-item-content"
+  },"38": {
+    "doc": "News/Stories Content",
+    "title": "Create/Edit News Items",
+    "content": "Add a news item . | In the left menu in dotCMS, select the content tab. | Using the type field in the left column, select the content type Taylor Modernization: New Item. | Click this button (purple circle with three dots vertically aligned) in the top right corner of the screen. | Select “Add New Content”. | Fill out all necessary fields. | To save, click “Save” in the right column. If you have publish access, you will see an option for “Save / Publish”. | . Update a news item . | In the left menu in dotCMS, select the content tab. | Using the type field in the left column, select the content type Taylor Modernization: New Item. | Search for the news item you want to edit. | Click the item to edit. | Update all necessary fields. | To save, click “Save” in the right column. If you have publish access, you will see an option for “Save / Publish”. | . Unpublishing a news item . | In the left menu in dotCMS, select the content tab. | Using the type field in the left column, select the content type Taylor Modernization: New Item. | Search for the news item you want to unpublish. | When you find it, right click on the item. | Select “Unpublish” from the pop up menu. | . Remove a news item . | In the left menu in dotCMS, select the content tab. | Using the type field in the left column, select the content type Taylor Modernization: New Item. | Search for the news item you want to remove. | When you find it, right click on the item. | Select “Unpublish” from the pop up menu. | Right click on the item again. | Select “Archive” from the pop up menu. | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/news/#createedit-news-items",
+    "relUrl": "/docs/content/news/#createedit-news-items"
+  },"39": {
+    "doc": "Environment Setup",
+    "title": "Environment Setup",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/setup/",
+    "relUrl": "/docs/setup/"
+  },"40": {
+    "doc": "Environment Setup",
+    "title": "Table of contents",
+    "content": ". | Gulp | Gulp Installation . | Using Gulp | . | . Gulp . We are using gulp to compile are SASS file into CSS. dotCMS does have a SASS compiler but it has proven to be unreliable at times. Also, if the compiler finds an error in the SASS files, it will render a blank css file rather then leave the current compiled css live. This means that the site would load a blank page until the issue is fixed. We are using npm to install Gulp and serve the Foundation 6 sass files. Compiling offline is a safer way so that the process of development continues without possibly break the site. If the dotCMS compiler situation addressed, we will upload the sass files to have dotCMS compile the css and remove the local compiler css for production use. Gulp Installation . The follow commands are used to install the tools used in this project. You must be in the root directory when installing these tools. Run the follow command to install all tools and dependancies: . $ npm install . If you and a tool to the project, please don’t forget to add it to the package.json file. Run the follow command when installing new tools or dependencies: . $ npm install --save-dev { package } . Using Gulp . | SASS Compile Foundation (Not Minified): gulp app | SASS Compile Taylor Styles (Not Minified): gulp style | SASS Compile while working (Not Minified): gulp watch | SASS Compile and Minify: gulp -task | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/setup/#table-of-contents",
+    "relUrl": "/docs/setup/#table-of-contents"
+  },"41": {
+    "doc": "Typography",
+    "title": "Typography",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/web-style-guide/typography/",
+    "relUrl": "/docs/web-style-guide/typography/"
+  },"42": {
+    "doc": "Typography",
+    "title": "Table of contents",
+    "content": ". | Headers Font Styles | Body Font Styles | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/web-style-guide/typography/#table-of-contents",
+    "relUrl": "/docs/web-style-guide/typography/#table-of-contents"
+  },"43": {
+    "doc": "Typography",
+    "title": "Headers Font Styles",
+    "content": "| Tag/Class | Font Style | Font Weight | Color | Small | Medium(&amp; Up) | . | h1, .h1 | Noto Serif | Normal | | 24px | 48px | . | h2, .h2 | Helvetica Neue | Bold | | 20px | 40px | . | h3, .h3 | Helvetica Neue | Bold | | 19px | 31px | . | h4, .h4 | Noto Serif | Bold | | 18px | 25px | . | h5, .h5 | Helvetica Neue | Bold | | 17px | 20px | . | h6, .h6 | Helvetica Neue | Normal | | 16px | 16px | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/web-style-guide/typography/#headers-font-styles",
+    "relUrl": "/docs/web-style-guide/typography/#headers-font-styles"
+  },"44": {
+    "doc": "Typography",
+    "title": "Body Font Styles",
+    "content": "| Use | Font Style | Font Weight | Color | Font Size | . | Body | Noto Serif | Normal | | 16px | . | Link | Noto Serif | Normal | | 16px | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/web-style-guide/typography/#body-font-styles",
+    "relUrl": "/docs/web-style-guide/typography/#body-font-styles"
+  },"45": {
+    "doc": "General Webpage",
+    "title": "Webpages",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/web-page-content/#webpages",
+    "relUrl": "/docs/content/web-page-content/#webpages"
+  },"46": {
+    "doc": "General Webpage",
+    "title": "Table of contents",
+    "content": ". | Understanding Webpages . | Fields to Use for Content | Fields to Use for Page Properties . | CONTENT | ADVANCED PROPERTIES | . | . | Edit Webpage Content . | Create Web Page Content | Update Web Page Content | Advanced Content Editing | . | . Content Types - Web Page Content, Cover Images, WWW Accordion Widget, Image Carousel, Buttons Widget, Video Link Widget . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/web-page-content/#table-of-contents",
+    "relUrl": "/docs/content/web-page-content/#table-of-contents"
+  },"47": {
+    "doc": "General Webpage",
+    "title": "Understanding Webpages",
+    "content": "Fields to Use for Content . | Title - For internal use to find the contentlet in the Web Content tab. | DO NOT use abbreviations or use “&amp;”—spell out “and.” | . | Host - Choose the host where the page will reside. SAVE ALL content down to the folder that the page is in. | Body - The content for the page. ALL must have an h1 tag. | . Fields to Use for Page Properties . CONTENT . | Title - Full name of the page. | DO NOT use abbreviations or use “&amp;”—spell out “and.” | . | Host or Folder - Choose the host where the page will reside. SAVE ALL pages down to the folder that the page is in. | URL - Choose a short, appropriate URL. | INCLUDE dashes between each word. | DO NOT include “and” in the URL. | . | Template - Should be “Standard Template.” | . ADVANCED PROPERTIES . | Show on Menu - ONLY if it belongs on the Secondary menu. | Show on SiteMap - ALWAYS “True.” | Sort Order - Use “0” unless it is on the Secondary menu. If on Secondary menu, | Friendly Name - Should be the Title of the Page. DO NOT abbreviate or use “&amp;”s. | SEO Description - Should include keywords and keyphrases for Google search engines to pick up. Must be complete sentences. | SEO Keywords - Find high search volume, low competition keywords and phrases to include. Put a comma between each. | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/web-page-content/#understanding-webpages",
+    "relUrl": "/docs/content/web-page-content/#understanding-webpages"
+  },"48": {
+    "doc": "General Webpage",
+    "title": "Edit Webpage Content",
+    "content": "For basic understand and ease of use, the examples listed with use the “Browser” tab dotCMS right column menu. For more advanced methods, see the Advanced Content Editing section. PS: Please remember to ALWAYS unlock the page after your are done adding content to the page. This will allow other content contributors to also edit the page if necessary. Create Web Page Content . | Navigate to the page you wish to add content. | Open/Preview the page by either double clicking the page or right clicking the page and selecting “Open/Preview”. | In the top left section of the dotCMS page, you should see three options: Edit, Preview, Live. Select edit. | The page will now display the content in their respective containers. Select the plus icon on the top right of the container where you want your content to go. | Select the content option. | You should now see a list of content displayed. Use the plus icon at the top right and select the “Web Page Content” option. | In the right column, there should be an option to “Lock for Editing”. Select to lock the content. (It is best practice to lock the content before editing the content) | Fill in the required and necessary fields. | Click save in the right column. If you have publish access, you will be able to use the option “Save / Publish”. | Close the editing window to view the content on the page. | . Update Web Page Content . | Navigate to the page you wish to edit its content. | Open/Preview the page by either double clicking the page or right clicking the page and selecting “Open/Preview”. | In the top left section of the dotCMS page, you should see three options: Edit, Preview, Live. Select edit. | The page will now display the content in their respective containers. Find the content block you wish to edit. | When hovering over the content block, you will see three icons. Select the edit icon. | In the right column, there should be an option to “Lock for Editing”. Select to lock the content. (It is best practice to lock the content before editing the content) | Edit your content. | After updating the content, Click save in the right column. If you have publish access, you will be able to use the option “Save / Publish”. | Close the editing window to view the content on the page. | . Advanced Content Editing . There is another way to add or edit content on the website. This method use the “Content Search” tab. | In the left menu in dotCMS, select the content tab. | Using the type field in the left column, filter by “Page Asset (all the way at the bottom of the list)” | Search for the page, and choose the correct title on the right. | In the pop-up On the right, Click the “Preview” option. | On top left navagation on the website editor(right below the page title), Click Edit. | Hover over the content you wish to edit | On the top right of the content you wish to edit, Click the pen icon | On the right side menu Click “Lock for Editing” (This locks the web page to prevent others from trying to edit the page at the same time you are) | After updating the content, on the right side menu, Click save. If you have publish access, you will see an option for “Save / Publish”. | On the top menu on the website editor click the lock icon toggle to unlock the the page. | . ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/web-page-content/#edit-webpage-content",
+    "relUrl": "/docs/content/web-page-content/#edit-webpage-content"
+  },"49": {
+    "doc": "General Webpage",
+    "title": "General Webpage",
+    "content": " ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/content/web-page-content/",
+    "relUrl": "/docs/content/web-page-content/"
+  },"50": {
+    "doc": "Web Style Guide",
+    "title": "Web Style Guide",
+    "content": "The Web Style Guide helps keep all assets we use on the website consistent. If you have questions about something being consistant, please refer any questions to the Office of Lead Generation. ",
+    "url": "https://taylor-university.github.io/tu-web-documentation/docs/web-style-guide",
+    "relUrl": "/docs/web-style-guide"
+  }
+}

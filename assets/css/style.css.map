@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss",
+		"_sass/colors.scss"
+	],
+	"sourcesContent": [
+		"@import \"colors\";",
+		"$purple: #61578B;\n$gold: #AE936C;\n$teal: #007476;\n$white: #fefefe;\n$background-gray: #F2F2F2;\n$border-gray: #CCCCCC;\n$footer-background: #1D1D1D;\n$footer-background-bottom: #222222;\n$text-color: #4A4A4A;\n\n.bg-purple {\n\tbackground-color: $purple;\n}\n.bg-gold {\n\tbackground-color: $gold;\n}\n.bg-teal {\n\tbackground-color: $teal;\n}\n.bg-white {\n\tbackground-color: $white;\n}\n.bg-light-gray {\n\tbackground-color: $background-gray;\n}\n.bg-medium-gray {\n\tbackground-color: $border-gray;\n}\n.bg-dark-gray {\n\tbackground-color: $text-color;\n}\n.bg-black {\n\tbackground-color: $footer-background;\n}\n.bg-black-alt {\n\tbackground-color: $footer-background-bottom;\n}"
+	],
+	"names": [],
+	"mappings": "ACUA,AAAA,UAAU,CAAC,EACV,gBAAgB,EAXR,OAAO,GAYf;;AACD,AAAA,QAAQ,CAAC,EACR,gBAAgB,EAbV,OAAO,GAcb;;AACD,AAAA,QAAQ,CAAC,EACR,gBAAgB,EAfV,OAAO,GAgBb;;AACD,AAAA,SAAS,CAAC,EACT,gBAAgB,EAjBT,OAAO,GAkBd;;AACD,AAAA,cAAc,CAAC,EACd,gBAAgB,EAnBC,OAAO,GAoBxB;;AACD,AAAA,eAAe,CAAC,EACf,gBAAgB,EArBH,OAAO,GAsBpB;;AACD,AAAA,aAAa,CAAC,EACb,gBAAgB,EArBJ,OAAO,GAsBnB;;AACD,AAAA,SAAS,CAAC,EACT,gBAAgB,EA1BG,OAAO,GA2B1B;;AACD,AAAA,aAAa,CAAC,EACb,gBAAgB,EA5BU,OAAO,GA6BjC"
+}
