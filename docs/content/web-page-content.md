@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Web Page Content
+title: General Webpage
 parent: Content
 nav_order: 2
 ---
 
-# Web Content Update
+# Webpages
 {: .no_toc }
 
 ## Table of contents
@@ -14,13 +14,44 @@ nav_order: 2
 1. TOC
 {:toc}
 
-**Content Type** - Web Page Content
+**Content Types** - Web Page Content, Cover Images, WWW Accordion Widget, Image Carousel, Buttons Widget, Video Link Widget
+
+## Understanding Webpages
+
+### Fields to Use for Content
+- **Title** - For internal use to find the contentlet in the Web Content tab.
+	- **DO NOT** use abbreviations or use "&"—spell out "and."
+- **Host** - Choose the host where the page will reside. **SAVE ALL** content down to the folder that the page is in.
+- **Body** - The content for the page. **ALL** must have an `h1` tag.
+
+### Fields to Use for Page Properties
+
+#### CONTENT
+
+- **Title** - Full name of the page.
+	- **DO NOT** use abbreviations or use "&"—spell out "and."
+- **Host or Folder** - Choose the host where the page will reside. SAVE ALL pages down to the folder that the page is in.
+- **URL** - Choose a short, appropriate URL.
+	- **INCLUDE** dashes between each word.
+	- **DO NOT** include "and" in the URL.
+- **Template** - Should be "Standard Template."
+
+#### ADVANCED PROPERTIES
+
+- **Show on Menu** - ONLY if it belongs on the Secondary menu.
+- **Show on SiteMap** - ALWAYS "True."
+- **Sort Order** - Use "0" unless it is on the Secondary menu. If on Secondary menu,
+- **Friendly Name** - Should be the Title of the Page. DO NOT abbreviate or use "&"s.
+- **SEO Description** - Should include keywords and keyphrases for Google search engines to pick up. Must be complete sentences.
+- **SEO Keywords** - Find high search volume, low competition keywords and phrases to include. Put a comma between each.
+
+----
+
+## Edit Webpage Content
 
 For basic understand and ease of use, the examples listed with use the "Browser" tab dotCMS right column menu. For more advanced methods, see the Advanced Content Editing section.
 
 **PS:** Please remember to ALWAYS unlock the page after your are done adding content to the page. This will allow other content contributors to also edit the page if necessary.
-
-----
 
 ### Create Web Page Content
 
@@ -35,8 +66,6 @@ For basic understand and ease of use, the examples listed with use the "Browser"
 9. **Click** save in the right column. If you have publish access, you will be able to use the option "Save / Publish".
 10. **Close** the editing window to view the content on the page.
 
-----
-
 ### Update Web Page Content
 
 1. **Navigate** to the page you wish to edit its content.
@@ -48,8 +77,6 @@ For basic understand and ease of use, the examples listed with use the "Browser"
 8. **Edit** your content.
 9. After updating the content, **Click** save in the right column. If you have publish access, you will be able to use the option "Save / Publish".
 10. **Close** the editing window to view the content on the page.
-
-----
 
 ### Advanced Content Editing
 
