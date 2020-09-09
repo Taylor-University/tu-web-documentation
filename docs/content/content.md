@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Content Editing
+title: Content
 nav_order: 4
 has_children: true
 permalink: docs/content
 ---
 
-# Content Editing
-{: .no_toc }
+# Content
 
 This section will explain various was to edit content in dotCMS.
 {: .fs-6 .fw-300 }
