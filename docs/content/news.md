@@ -1,7 +1,7 @@
 ---
 layout: default
 title: News/Stories Content
-parent: Content Editing
+parent: Content
 nav_order: 1
 ---
 

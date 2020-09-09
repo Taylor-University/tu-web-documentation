@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cover Images
-parent: Content Editing
+parent: Content
 nav_order: 3
 ---
 

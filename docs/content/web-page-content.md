@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Web Page Content
-parent: Content Editing
+parent: Content
 nav_order: 2
 ---
 

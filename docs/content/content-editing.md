@@ -3,7 +3,7 @@ layout: default
 title: Content Editing
 nav_order: 4
 has_children: true
-permalink: docs/content-editing
+permalink: docs/content
 ---
 
 # Content Editing
